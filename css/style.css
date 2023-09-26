@@ -188,15 +188,20 @@ img {
 }
 
 .section-one {
+  display: flex;
   background-color: #2e2f42;
   padding: 188px 0;
+  background-image: url(../images-portfolio/background-hero.jpg);
 }
 
 .section-one-h {
+  display: flex;
   max-width: 496px;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
+  justify-content: center;
+  align-items: center;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
