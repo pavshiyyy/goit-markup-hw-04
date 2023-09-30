@@ -269,6 +269,16 @@ img {
   overflow: hidden;
 }
 
+.index-image-one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
 .section-two-list {
   display: flex;
   gap: 24px;
