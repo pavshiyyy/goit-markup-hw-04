@@ -20,6 +20,7 @@ ol {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
+  list-style-type: none;
 }
 img {
   display: block;
@@ -405,6 +406,47 @@ img {
   letter-spacing: 0.02em;
 }
 
+.section-five {
+  padding: 120px 0;
+}
+
+.section-five-h {
+  font-size: 36px;
+  line-height: 1.11;
+  color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+.section-five-ul {
+  display: flex;
+  gap: 24px;
+}
+
+.section-five-ul-li {
+  width: calc((100% - 120px) / 6);
+  height: 88px;
+}
+
+.section-five-ul-li-a {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #8e8f99;
+}
+
+.section-five-ul-li-a:hover {
+  border-color: #404bbf;
+  color: #404bbf;
+}
+
+.section-five-ul-li-a:focus {
+  border-color: #404bbf;
+  color: #404bbf;
+}
 .section-main {
   padding-top: 96px;
   padding-bottom: 120px;
