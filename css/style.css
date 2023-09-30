@@ -246,6 +246,7 @@ img {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .section-one-button::data-modal-open .section-one-button:hover {
   background-color: #404bbf;
