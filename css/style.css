@@ -447,6 +447,11 @@ img {
   border-color: #404bbf;
   color: #404bbf;
 }
+
+.section-five-svg {
+  fill: currentColor;
+}
+
 .section-main {
   padding-top: 96px;
   padding-bottom: 120px;
