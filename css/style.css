@@ -530,6 +530,7 @@ img {
   background-color: #404bbf;
   box-shadow: 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+  transform: translateY(0%);
 }
 
 .button:focus {
@@ -538,6 +539,7 @@ img {
   background-color: #404bbf;
   box-shadow: 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+  transform: translateY(0%);
 }
 
 .main-list-two {
