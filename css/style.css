@@ -46,12 +46,14 @@ img {
 }
 
 .header-container {
+  width: 1800px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 .header-nav {
+  margin-left: 156px;
   display: flex;
   align-items: center;
 }
@@ -97,7 +99,9 @@ img {
 }
 
 .adress-list {
-  display: flex;
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-end;
   gap: 40px;
   margin-right: 156px;
 }
@@ -259,7 +263,7 @@ img {
   margin: 0 auto;
   display: flex;
   background-color: #2e2f42;
-  max-width: 1440px;
+  max-width: 2000px;
   padding: 188px 0;
   background-repeat: no-repeat;
   background-position: center;
@@ -463,6 +467,7 @@ img {
 }
 
 .section-five-h {
+  text-align: center;
   font-size: 36px;
   line-height: 1.11;
   color: #2e2f42;
@@ -580,7 +585,10 @@ img {
 }
 
 .portfolio-p {
+  font-family: Roboto;
   font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
